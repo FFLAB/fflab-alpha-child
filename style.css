@@ -1,0 +1,68 @@
+/*
+Theme Name: FFLAB-ALpha Child
+Description: Child di FFLAB-ALPHA.
+Author: Francesco Riggio
+Author URI: http://www.fflab.info
+Version: 1.0
+Template: fflab-alpha
+*/
+
+/* Importo i fogli di stile del tema parent */
+@import url("../fflab-alpha/css/bootstrap.min.css");
+@import url("../fflab-alpha/style.css");
+body{
+	font-size: 21px;
+	line-height: 33px;
+	font-family: 'Atma',Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-brand a{
+    font-weight: 600;
+}
+
+/*added for thumbnail title*/
+.bigtitle{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px;
+    height: 350px;
+    padding: 100px 20px 100px;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 40px;
+    text-align: center;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    line-height: 60px;
+}
+
+.bigtitle a{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.bigtitle a:hover{
+    text-decoration: none;
+    color: #96352f;
+    text-shadow: 2px 2px 2px #fff;
+    
+}
+@media (max-width: 768px){
+    .bigtitle{
+       font-size: 30px;
+       line-height: 40px;
+    }
+}
+.has-post-thumbnail img {
+    margin: 0 auto;
+    height: auto;
+}
+
+
+
+
