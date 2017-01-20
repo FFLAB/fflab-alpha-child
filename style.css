@@ -6,8 +6,6 @@ Author URI: http://www.fflab.info
 Version: 1.0
 Template: fflab-alpha
 */
-
-/* Importo i fogli di stile del tema parent */
 @import url("../fflab-alpha/css/bootstrap.min.css");
 @import url("../fflab-alpha/style.css");
 body{
@@ -50,7 +48,7 @@ img{
     text-decoration: none;
     color: #96352f;
     text-shadow: 2px 2px 2px #fff;
-    
+
 }
 @media (max-width: 768px){
     .bigtitle{
@@ -62,7 +60,3 @@ img{
     margin: 0 auto;
     height: auto;
 }
-
-
-
-
