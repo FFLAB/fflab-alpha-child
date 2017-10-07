@@ -3,15 +3,17 @@ Theme Name: FFLAB-ALpha Child
 Description: Child di FFLAB-ALPHA.
 Author: Francesco Riggio
 Author URI: http://www.fflab.info
-Version: 1.0
+Version: 2.0
 Template: fflab-alpha
 */
+
+/* Importo i fogli di stile del tema parent */
 @import url("../fflab-alpha/css/bootstrap.min.css");
 @import url("../fflab-alpha/style.css");
 body{
 	font-size: 21px;
 	line-height: 33px;
-	font-family: 'Atma',Helvetica, Arial, sans-serif;
+    font-family: 'Titillium Web',Helvetica, sans-serif;
 	font-weight: 300;
 }
 img{
@@ -48,7 +50,7 @@ img{
     text-decoration: none;
     color: #96352f;
     text-shadow: 2px 2px 2px #fff;
-
+    
 }
 @media (max-width: 768px){
     .bigtitle{
