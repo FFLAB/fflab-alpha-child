@@ -3,7 +3,7 @@ Theme Name: FFLAB-ALpha Child
 Description: Child di FFLAB-ALPHA.
 Author: Francesco Riggio
 Author URI: http://www.fflab.info
-Version: 2.0
+Version: 2.1
 Template: fflab-alpha
 */
 
@@ -13,6 +13,7 @@ Template: fflab-alpha
 body{
 	font-size: 21px;
 	line-height: 33px;
+/*	font-family: 'Atma',Helvetica, Arial, sans-serif;*/
     font-family: 'Titillium Web',Helvetica, sans-serif;
 	font-weight: 300;
 }
@@ -62,3 +63,15 @@ img{
     margin: 0 auto;
     height: auto;
 }
+
+.wp-caption-text{
+font-size:14px;
+}
+.fancybox-title-float-wrap .child{ 
+	border-radius: 0px;
+	padding: 3px;
+}
+
+
+
+
