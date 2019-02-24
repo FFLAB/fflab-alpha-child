@@ -8,8 +8,8 @@ Template: fflab-alpha
 */
 
 /* Importo i fogli di stile del tema parent */
-@import url("../fflab-alpha/css/bootstrap.min.css");
-@import url("../fflab-alpha/style.css");
+/* @import url("../fflab-alpha/css/bootstrap.min.css"); */
+/* @import url("../fflab-alpha/style.css"); */
 body{
 	font-size: 21px;
 	line-height: 33px;
